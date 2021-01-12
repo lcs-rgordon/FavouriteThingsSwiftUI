@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8162A71C25ACDEA700AFFCBB /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8162A71B25ACDEA700AFFCBB /* Thing.swift */; };
+		8162A71F25ACE06900AFFCBB /* Things.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8162A71E25ACE06900AFFCBB /* Things.swift */; };
 		816BCB7F25A8F86C00D30634 /* FavouriteThingsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816BCB7E25A8F86C00D30634 /* FavouriteThingsSwiftUIApp.swift */; };
 		816BCB8125A8F86C00D30634 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816BCB8025A8F86C00D30634 /* ContentView.swift */; };
 		816BCB8325A8F86C00D30634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816BCB8225A8F86C00D30634 /* Assets.xcassets */; };
 		816BCB8625A8F86C00D30634 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816BCB8525A8F86C00D30634 /* Preview Assets.xcassets */; };
-		816BCB8F25A8FA9200D30634 /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816BCB8E25A8FA9200D30634 /* BooksView.swift */; };
-		816BCB9225A8FAE400D30634 /* PiperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816BCB9125A8FAE400D30634 /* PiperView.swift */; };
-		816BCB9525A8FB0700D30634 /* SandwichesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816BCB9425A8FB0700D30634 /* SandwichesView.swift */; };
+		816BCB8F25A8FA9200D30634 /* ThingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816BCB8E25A8FA9200D30634 /* ThingDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8162A71B25ACDEA700AFFCBB /* Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
+		8162A71E25ACE06900AFFCBB /* Things.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Things.swift; sourceTree = "<group>"; };
 		816BCB7B25A8F86C00D30634 /* FavouriteThingsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteThingsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		816BCB7E25A8F86C00D30634 /* FavouriteThingsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsSwiftUIApp.swift; sourceTree = "<group>"; };
 		816BCB8025A8F86C00D30634 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		816BCB8225A8F86C00D30634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		816BCB8525A8F86C00D30634 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		816BCB8725A8F86C00D30634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		816BCB8E25A8FA9200D30634 /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
-		816BCB9125A8FAE400D30634 /* PiperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiperView.swift; sourceTree = "<group>"; };
-		816BCB9425A8FB0700D30634 /* SandwichesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichesView.swift; sourceTree = "<group>"; };
+		816BCB8E25A8FA9200D30634 /* ThingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +63,9 @@
 				816BCB8225A8F86C00D30634 /* Assets.xcassets */,
 				816BCB8725A8F86C00D30634 /* Info.plist */,
 				816BCB8425A8F86C00D30634 /* Preview Content */,
-				816BCB8E25A8FA9200D30634 /* BooksView.swift */,
-				816BCB9125A8FAE400D30634 /* PiperView.swift */,
-				816BCB9425A8FB0700D30634 /* SandwichesView.swift */,
+				816BCB8E25A8FA9200D30634 /* ThingDetailView.swift */,
+				8162A71B25ACDEA700AFFCBB /* Thing.swift */,
+				8162A71E25ACE06900AFFCBB /* Things.swift */,
 			);
 			path = FavouriteThingsSwiftUI;
 			sourceTree = "<group>";
@@ -148,10 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				816BCB8125A8F86C00D30634 /* ContentView.swift in Sources */,
-				816BCB9225A8FAE400D30634 /* PiperView.swift in Sources */,
-				816BCB8F25A8FA9200D30634 /* BooksView.swift in Sources */,
+				816BCB8F25A8FA9200D30634 /* ThingDetailView.swift in Sources */,
 				816BCB7F25A8F86C00D30634 /* FavouriteThingsSwiftUIApp.swift in Sources */,
-				816BCB9525A8FB0700D30634 /* SandwichesView.swift in Sources */,
+				8162A71C25ACDEA700AFFCBB /* Thing.swift in Sources */,
+				8162A71F25ACE06900AFFCBB /* Things.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
